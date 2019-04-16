@@ -1,0 +1,99 @@
+<link rel="stylesheet" href="estilos/estilo.css">
+
+<h1>Inscrição Hackthon 2019</h1>
+
+<form action="/pagina-inscricao-hackathon" method="POST">
+
+<div>
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome" />
+</div>
+
+<div>
+    <label for="idade">Idade: </label>
+    <input type="text" id="idade">
+</div>
+
+<div>
+    <label for="email">Email: </label>
+    <input type="text" id="email">
+</div>
+
+<div>
+    <label for="uni">Universidade: </label>
+    <input type="text" id="uni">
+</div>
+
+<div>
+    <label for="tele">Telefone para contato</label>
+    <input type="text" id="tele">
+</div>
+
+<div>
+    <label for="end">Endereço: </label>
+    <input type="text" id="end">
+</div><br>
+
+<div>
+    <label for="uf">UF: </label>
+<select name="uf" id="uf">
+        <option value="">Selecione</option>
+        <option value="AC">AC</option>
+        <option value="AL">AL</option>
+        <option value="AM">AM</option>
+        <option value="AP">AP</option>
+        <option value="BA">BA</option>
+        <option value="CE">CE</option>
+        <option value="DF">DF</option>
+        <option value="ES">ES</option>
+        <option value="GO">GO</option>
+        <option value="MA">MA</option>
+        <option value="MG">MG</option>
+        <option value="MS">MS</option>
+        <option value="MT">MT</option>
+        <option value="PA">PA</option>
+        <option value="PB">PB</option>
+        <option value="PE">PE</option>
+        <option value="PI">PI</option>
+        <option value="PR">PR</option>
+        <option value="RJ">RJ</option>
+        <option value="RN">RN</option>
+        <option value="RS">RS</option>
+        <option value="RO">RO</option>
+        <option value="RR">RR</option>
+        <option value="SC">SC</option>
+        <option value="SE">SE</option>
+        <option value="SP">SP</option>
+        <option value="TO">TO</option>
+     </select>
+    </div>
+
+    <div>
+        <label for="msg">Motivo de querer participar do Hackathon 2019? </label>
+        <textarea id="msg" cols="30" rows="10"></textarea>
+    </div>
+
+<div class="button">
+    <button type = "submit" onclick="cadastro()"> Enviar sua mensagem</button>
+
+</div>
+
+
+
+
+<script src="./scripts/index.js"></script>
+
+</form>
+
+
+
+<A href="index.html"> <strong>Voltar a Página Principal</strong></A>
+
+
+
+<script>
+    function cadastro(){
+        alert('Cadastro realizado com sucesso!');
+    }
+</script>
+
